@@ -22,7 +22,7 @@ Deploy on other platforms:
 - [Heroku](https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master)
 
 - https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master
-- https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master
+- https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/feature/revisions
 
 - [Azure](https://azuredeploy.net/)
 - [OpenShift](https://github.com/rauchg/slackin/wiki/OpenShift)
