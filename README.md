@@ -48,12 +48,9 @@ to point to it (all channels will be visible).
 
 #### Realtime ([demo](https://cldup.com/IaiPnDEAA6.gif))
 
-<a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
-
-https://cask-doc-eng-revisions.herokuapp.com/badge.svg
-
 ```html
-<a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
+<script async defer src="https://cask-doc-eng-revisions.herokuapp.com/slackin.js"></script>
+<!-- append "?" to the URL for the large version -->
 ```
 
 ```html
@@ -62,6 +59,14 @@ https://cask-doc-eng-revisions.herokuapp.com/badge.svg
 ```
 
 #### SVG ([demo](https://cldup.com/jWUT4QFLnq.png))
+
+<a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
+
+https://cask-doc-eng-revisions.herokuapp.com/badge.svg
+
+```html
+<a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
+```
 
 ```html
 <img src="https://slack.yourdomain.com/badge.svg">
