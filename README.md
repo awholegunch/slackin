@@ -17,7 +17,7 @@ Set up [Now](https://zeit.co/now) on your device and run this command:
 $ now -e SLACK_API_TOKEN="<token>" -e SLACK_SUBDOMAIN="<team-name>" now-examples/slackin
 ```
 
-Deploy on other platforms:
+Deploy this version on other platforms:
 
 - [Heroku](https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master)
 
@@ -48,15 +48,17 @@ to point to it (all channels will be visible).
 
 #### Realtime ([demo](https://cldup.com/IaiPnDEAA6.gif))
 
-```html
-<script async defer src="https://slack.yourdomain.com/slackin.js"></script>
-<!-- append "?" to the URL for the large version -->
-```
+<a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
 
 https://cask-doc-eng-revisions.herokuapp.com/badge.svg
 
 ```html
 <a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
+```
+
+```html
+<script async defer src="https://slack.yourdomain.com/slackin.js"></script>
+<!-- append "?" to the URL for the large version -->
 ```
 
 #### SVG ([demo](https://cldup.com/jWUT4QFLnq.png))
@@ -93,8 +95,8 @@ All the metadata for your organization can be fetched via a JSON HTTP request to
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own
 GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it
 to your local device
-2. Uninstall slackin if it's already installed: `npm uninstall -g slack`
+2. Uninstall slackin if it's already installed: `npm uninstall -g slackin`
 3. Link it to the global module directory: `npm link`
 4. Transpile the source code and watch for changes: `npm start`
 
-Yey! Now can use the `slack` command everywhere.
+Yey! Now can use the `slackin` command everywhere.
