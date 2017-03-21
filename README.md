@@ -21,8 +21,8 @@ Deploy on other platforms:
 
 - [Heroku](https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master)
 
-- https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master
-- https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/feature/revisions
+  - https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/master
+  - https://heroku.com/deploy?template=https://github.com/awholegunch/slackin/tree/feature/revisions
 
 - [Azure](https://azuredeploy.net/)
 - [OpenShift](https://github.com/rauchg/slackin/wiki/OpenShift)
@@ -51,6 +51,12 @@ to point to it (all channels will be visible).
 ```html
 <script async defer src="https://slack.yourdomain.com/slackin.js"></script>
 <!-- append "?" to the URL for the large version -->
+```
+
+https://cask-doc-eng-revisions.herokuapp.com/badge.svg
+
+```html
+<a href="https://cask-doc-eng-revisions.herokuapp.com/"><img alt="Join Cask Doc Eng" src="https://cask-doc-eng-revisions.herokuapp.com/badge.svg"/></a>
 ```
 
 #### SVG ([demo](https://cldup.com/jWUT4QFLnq.png))
